@@ -3,5 +3,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 apt-cache policy docker-ce
 sudo apt-get install -y docker-ce
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 cd /var/run
 chmod 777 docker.sock
