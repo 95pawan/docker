@@ -7,4 +7,3 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 sudo su
 cd /var/run
 chmod 777 docker.sock
-
