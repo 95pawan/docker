@@ -6,6 +6,7 @@ sudo apt-get install -y docker-ce
 sudo systemctl start docker
 sudo service docker start
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+az aks install-cli
 sudo su
 cd /var/run
 chmod 777 docker.sock
